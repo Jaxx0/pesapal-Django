@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+<div class="flex-center position-ref full-height">
+            <div class="content">
+                <div class="title m-b-md">
+                    Pay Report
+                </div>
+
+                <div class="links">
+                    <p>Payment made to PesaPal is <strong>{{ status }}</strong></p>
+                </div>
+            </div>
+</div>
+{% endblock %}
