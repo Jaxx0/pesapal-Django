@@ -4,8 +4,8 @@ from . import pesapal_processor3
 
 
 def post_transaction(Reference, FirstName, LastName, Email, PhoneNumber, Description, Amount, Type):
-    pesapal_processor3.consumer_key = 'nRZXsEDVT2uMetIZxnusQPOA4zHyBtlV'
-    pesapal_processor3.consumer_secret = 'UzKwzyN9GbXgSNC8HKcMHrJusME='
+    pesapal_processor3.consumer_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxx'
+    pesapal_processor3.consumer_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxx'
     pesapal_processor3.testing = False
 
     post_params = {
